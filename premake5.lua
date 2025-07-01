@@ -1,8 +1,4 @@
-workspace "NVIDIA_SDKs"
-    architecture "x86_64"
-    configurations { "Debug", "Release" }
-
-    include "NVIDIAImageScaling"
+include "NVIDIAImageScaling"
 
 project "DLSS"
     kind "None"
